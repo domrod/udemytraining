@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	fmt.Printf("%d", 42)
+	fmt.Printf("%d \n", 42)
 }

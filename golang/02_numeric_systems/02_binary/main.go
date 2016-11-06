@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	fmt.Printf("Decimal: %d - Binary: %b", 42, 42)
+	fmt.Printf("Decimal: %d - Binary: %b \n", 42, 42)
 }
