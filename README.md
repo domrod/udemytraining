@@ -1,3 +1,3 @@
 # udemytraining
 
-Training files from Udemy lectures
+Training files developed from Udemy lectures
