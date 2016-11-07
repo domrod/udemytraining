@@ -10,7 +10,7 @@ var x = 42
 
 func foo() {
 	fmt.Printf("x has %T type \n", x)
-	// y is only in this function.
+	// y is only visible in this function.
 	// This is block level scope.
 	y := "Hi"
 	fmt.Printf("y = %#v \n", y)
