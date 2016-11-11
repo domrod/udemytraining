@@ -1,5 +1,7 @@
 package main
 
+// examples of use of "iota"
+
 import "fmt"
 
 const (
