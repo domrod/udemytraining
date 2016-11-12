@@ -6,7 +6,7 @@ func main() {
 
 	a := 42
 
-	fmt.Println("a:", a)
+	fmt.Println("a:", a) // Prints 42
 	fmt.Println("a address:", &a)
 
 	var b *int = &a
@@ -15,6 +15,6 @@ func main() {
 
 	*b = 24 // Changing the value at "a" memory address
 
-	fmt.Println("a is now:", a)
+	fmt.Println("a is now:", a) // Prints 24
 
 }
