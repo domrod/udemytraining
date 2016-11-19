@@ -22,14 +22,14 @@ func SwitchOnType(x interface{}) {
 }
 
 func main() {
-	SwitchOnType(7)
-	SwitchOnType("Dom")
+	SwitchOnType(7)     // prints "int"
+	SwitchOnType("Dom") // prints "string"
 
 	var contact1 = contact{"M.", "John", "Doe"} // Note the setup in "JSON" format
-	SwitchOnType(contact1)
-	SwitchOnType(contact1.title)
-	SwitchOnType(contact1.firstname)
-	SwitchOnType(contact1.lastname)
+	SwitchOnType(contact1)                      // prints "contact"
+	SwitchOnType(contact1.title)                // prints "string"
+	SwitchOnType(contact1.firstname)            // prints "string"
+	SwitchOnType(contact1.lastname)             // prints "string"
 
 	// var contact2 contact
 	// contact2.title = "Mrs."
