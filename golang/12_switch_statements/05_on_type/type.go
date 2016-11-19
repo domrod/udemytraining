@@ -9,7 +9,7 @@ type contact struct {
 }
 
 func SwitchOnType(x interface{}) {
-	switch x.(type) { // This is an asserts. It checks the type of x.
+	switch x.(type) { // This is an assert. It checks the type of x.
 	case int:
 		fmt.Printf("%v is of type int \n", x)
 	case string:
