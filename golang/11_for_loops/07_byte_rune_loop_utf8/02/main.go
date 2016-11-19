@@ -14,7 +14,7 @@ func main() {
 
 	s := "â" // this is the string representation
 
-	fmt.Printf("\"%v\" is %v and is of type %T \n", s, s, s)
+	fmt.Printf("\"%v\" is %v and is of type %T. Its rune number is %v \n", s, s, s, []rune(s))
 	// fmt.Printf(`"%v" is %v and is of type %T`, s, s, s) // a way to avoid back slashes
 	// fmt.Println("") // "\n" can't be included in the previous Printf
 
